@@ -7,9 +7,7 @@ class Snake():
         self.length = 1
         self.positions = [((screen_width/2), (screen_height/2))]
         self.direction = random.choice([up, down, left, right])
-        self.color = (17, 24, 47)
-        # Special thanks to YouTubers Mini - Cafetos and Knivens Beast for raising this issue!
-        # Code adjustment courtesy of YouTuber Elija de Hoog
+        self.color = (17, 24, 47)        
         self.score = 0
 
     def get_head_position(self):
